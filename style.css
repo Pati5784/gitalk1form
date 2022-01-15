@@ -15,6 +15,25 @@ h1 {
 .form1 textarea {
 	width: 100%;
 }
-.form1 fieldset div div label{
-    color: red;
+.choice {
+	color: red;
+}
+.form1 fieldset div div label {
+	color: red;
+}
+#sendform {
+	background-color: green;
+	font-weight: bold;
+	font-size: 2rem;
+	width: 150px;
+	height: 50px;
+	display: block;
+	margin: 0 auto;
+}
+
+#sendform:hover {
+	border-radius: 5px;
+	color: white;
+	border: 5px solid darkgreen;
+	transition: border 0.5s ease-in-out, background-color 1s ease-in-out;
 }
