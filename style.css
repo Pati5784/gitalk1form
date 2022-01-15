@@ -15,3 +15,6 @@ h1 {
 .form1 textarea {
 	width: 100%;
 }
+.form1 fieldset div div label{
+    color: red;
+}
